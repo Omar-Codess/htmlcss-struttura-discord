@@ -135,3 +135,19 @@ header{
     background-color: #ffc0cb;
     border: 1px dashed black;
 }
+
+/* SECTION-5 */
+.section-5{
+    height: 600px;
+    background-color: #cbcbcb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5-container{
+    height: calc(80%);
+    width: calc(70%);
+    background-color: green;
+    border: 1px dashed black;
+}
