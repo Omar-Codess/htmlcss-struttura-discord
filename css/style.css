@@ -113,4 +113,25 @@ header{
     border: 1px dashed black;
 }
 
-#
+/* SECTION-4 */
+.section-4{
+    height: 350px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4-container-1{
+    height: calc(80%);
+    width: calc(45%);
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+.section-4-container-2{
+    height: calc(80%);
+    width: calc(25%);
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
