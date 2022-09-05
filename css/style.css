@@ -4,8 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html{
-    font-family: 'Whitney-Semibold', sans-serif;                                              
+    font-family: 'Whitney-Semibold', sans-serif;
 }
 
 
@@ -16,7 +17,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .nav-bar{
@@ -36,16 +36,16 @@ header{
 
 #link{
     border: 1px dashed black;
-    width: calc(60% - 3px); 
-    text-align: center; 
+    width: calc(60% - 3px);
+    text-align: center;
     padding: 0.5em;
 }
 
 #login{
-    border: 1px dashed black;  
+    border: 1px dashed black;
     width: calc(100% / 5);
     text-align: right;
-    padding: 0.5em;   
+    padding: 0.5em;
 }
 
 
@@ -199,4 +199,33 @@ header{
     background-color: #1faca4;
     border: 1px dashed white;
     margin-top: -50px;
+}
+
+/* FOOTER */
+.footer{
+    margin-top: 1px;
+    height: 80px;
+    background-color: #23272a;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-container{
+    background-color: #7fffd4;
+    height: calc(80%);
+    width: calc(70%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+
+.footer-button{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
 }
