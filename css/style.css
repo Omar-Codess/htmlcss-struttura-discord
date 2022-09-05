@@ -1,3 +1,51 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 html{
     font-family: 'Whitney-Semibold', sans-serif;                                              
 }
+
+/* HEADER */
+header{
+    background-color: #add8e6;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.nav-bar{
+    background-color: #daa520;
+    height: 40px;
+    width: calc(100% / 1.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    border: 1px dashed black;
+    width: calc(100% / 5);
+    padding: 0.5em;
+}
+
+#link{
+    border: 1px dashed black;
+    width: calc(60% - 3px); 
+    text-align: center; 
+    padding: 0.5em;
+}
+
+#login{
+    border: 1px dashed black;  
+    width: calc(100% / 5);
+    text-align: right;
+    padding: 0.5em;
+    
+}
+
