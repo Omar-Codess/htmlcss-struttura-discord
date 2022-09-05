@@ -66,3 +66,26 @@ header{
     border: 1px dashed black;
 }
 
+/* SECTION-2 */
+.section-2{
+    height: 350px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2-container-1{
+    height: calc(80%);
+    width: calc(45%);
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+.section-2-container-2{
+    height: calc(80%);
+    width: calc(25%);
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
