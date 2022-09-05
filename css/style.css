@@ -8,6 +8,7 @@ html{
     font-family: 'Whitney-Semibold', sans-serif;                                              
 }
 
+
 /* HEADER */
 header{
     background-color: #add8e6;
@@ -17,7 +18,6 @@ header{
     justify-content: center;
 
 }
-
 
 .nav-bar{
     background-color: #daa520;
@@ -45,7 +45,24 @@ header{
     border: 1px dashed black;  
     width: calc(100% / 5);
     text-align: right;
-    padding: 0.5em;
-    
+    padding: 0.5em;   
+}
+
+
+/* MAIN */
+/* SECTION-1 */
+.section-1{
+    height: 300px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1-container{
+    height: calc(80%);
+    width: calc(100% / 2);
+    background-color: #e97fe9;
+    border: 1px dashed black;
 }
 
