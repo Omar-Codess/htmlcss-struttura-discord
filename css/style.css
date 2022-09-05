@@ -69,7 +69,7 @@ header{
 /* SECTION-2 */
 .section-2{
     height: 350px;
-    background-color: red;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,3 +89,28 @@ header{
     border: 1px dashed black;
 }
 
+/* SECTION-3 */
+.section-3{
+    height: 350px;
+    background-color: #cbcbcb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3-container-1{
+    height: calc(80%);
+    width: calc(25%);
+    background-color: #ffc0cb
+    ;
+    border: 1px dashed black;
+}
+
+.section-3-container-2{
+    height: calc(80%);
+    width: calc(45%);
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+#
