@@ -151,3 +151,52 @@ header{
     background-color: green;
     border: 1px dashed black;
 }
+
+/* SECTION-6 */
+.section-6{
+    height: 350px;
+    background-color: #23272a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-6-container-1{
+    height: calc(80%);
+    width: calc(30%);
+    background-color: #f08080;
+    border: 1px dashed black;
+    margin-top: -50px;
+}
+
+.section-6-container-2{
+    height: calc(80%);
+    width: calc(10%);
+    background-color: #1faca4;
+    border: 1px dashed white;
+    margin-top: -50px;
+}
+
+.section-6-container-3{
+    height: calc(80%);
+    width: calc(10%);
+    background-color: #1faca4;
+    border: 1px dashed white;
+    margin-top: -50px;
+}
+
+.section-6-container-4{
+    height: calc(80%);
+    width: calc(10%);
+    background-color: #1faca4;
+    border: 1px dashed white;
+    margin-top: -50px;
+}
+
+.section-6-container-5{
+    height: calc(80%);
+    width: calc(10%);
+    background-color: #1faca4;
+    border: 1px dashed white;
+    margin-top: -50px;
+}
